@@ -66,6 +66,7 @@
     margin-bottom: 10px;
     padding: 10px;
     
+    
 }
 .categoty p{
 
@@ -73,6 +74,18 @@
     color: white;
     padding: 12px;
     border-radius: 20px;
+    border-radius: solid #A73CF0 1px ;
+    border: solid #A73CF0 1px ;
+} 
+.categoty p:hover{
+
+            transition: 1s;
+            background-color: white;
+            color: black;
+            cursor: pointer;
+            border: solid #A73CF0 1px ;
+
+
 }
 
 .mylearning{
@@ -115,12 +128,32 @@
     background-color: white;
     border: solid black 2px;
     position: absolute;
-    top: 40%;
+    top: 50%;
     left: 10%;
     padding: 20px;
     padding-top: 10px;
+    animation-name: zoom;
+    animation-duration: 1s;
+    opacity: 0;
+    animation-fill-mode: forwards;
   
 }
+
+@keyframes zoom{
+
+    0%{
+            transform:scale(0);
+            opacity: 0;
+
+    }
+    
+    100%{
+        transform:scale(1);
+        opacity: 1;
+
+}
+}
+
 
 .course-card{
     
