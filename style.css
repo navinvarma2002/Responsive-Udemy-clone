@@ -11,6 +11,10 @@
     justify-content:space-between;
     align-items: center;
     border-bottom: solid black 1px;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 1;
 
     
 }
@@ -70,11 +74,54 @@
     padding: 12px;
     border-radius: 20px;
 }
+
+.mylearning{
+
+    position: relative;
+    cursor: pointer;
+   
+}
+
+.mylearning__popup{
+ 
+    position: absolute;
+    height: 80px;
+    padding:10px;
+    width:100px;
+    background-color: white;
+    border:solid black 2px;
+    margin-top: 20%;
+    right: 0;
+    display: none;
+
+
+}
+
+.mylearning:hover .mylearning__popup{
+
+        display: block;
+
+}
 .sale-images img{
 
     width: 100%;
+    position: relative;
 
 }
+.sale-images-offerbox{
+
+    height: 10%;
+    width: 40%;
+    background-color: white;
+    border: solid black 2px;
+    position: absolute;
+    top: 40%;
+    left: 10%;
+    padding: 20px;
+    padding-top: 10px;
+  
+}
+
 .course-card{
     
     
