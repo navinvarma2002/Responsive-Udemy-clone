@@ -280,15 +280,13 @@
 }
 .sale-images-offerbox{
 
-    height: 10%;
+    height:8%;
     width: 50%;
     background-color: white;
     border: solid black 2px;
     position: absolute;
     top: 12%;
     left: 5%;
-    padding: 10px;
-    padding-top: 10px;
     animation-name: zoom;
     animation-duration: 1s;
     opacity: 0;
